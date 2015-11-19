@@ -168,7 +168,7 @@ border-bottom: 2px solid #099;}
         <div id="title">
         <div id="back-btn"><a id="return" href="#"><img src="img/flechas-01.png"/></a></div>
         <img  src="img/prueba.png"/>
-          <div id="title0"><h3>Literatura</h3></div>
+          <div id="title0"><h3>Ludoteca</h3></div>
           </div>
 </header>
     
@@ -188,7 +188,14 @@ border-bottom: 2px solid #099;}
     <div><a href="https://www.flickr.com/photos/29978342@N03"><input type="image" src="img/Flicker_White.png"/></a></div>
 
       </footer>
-      
+
+<script type="application/javascript">
+ $(document).ready(function(){
+	  $('#contenido').text('Cargando....');
+      $("#contenido").load("http://www.farodeoriente.org/prueba/contenido.html");
+   });
+
+</script>
 
 <script type="application/javascript">
 $(document).ready(function(){
@@ -490,9 +497,10 @@ $(document).ready(function(){
  
  $(document).ready(function(){
 	  $('#contenido').text('Cargando....');
-      $("#contenido").load("http://www.farodeoriente.org/prueba/literatura.html");
+      $("#contenido").load("http://www.farodeoriente.org/prueba/ludoteca.html");
    });
 </script>
+
 
 </body>
 </html>

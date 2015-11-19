@@ -484,6 +484,18 @@ $(document).ready(function(){
 });
 
 </script>
+<script type="text/javascript">
+$(document).ready(function(){
+   var refreshId = setInterval('load-async', 3000);
+   $.ajaxSetup({ cache: false });
+ });
+ 
+ $(document).ready(function(){
+	  $('#contenido').text('Cargando....');
+      $("#contenido").load("http://www.farodeoriente.org/prueba/infantil.html");
+   });
+</script>
+
 
 </body>
 </html>
