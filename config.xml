@@ -10,7 +10,7 @@ version de prueba app faro de oriente		</description>
 		<author href="" email="mauricio.glez.v@gmail.com">
 Mauricio Alejandro González, Diana Ocampo Mendez
 		</author>
-		<gap:plugin name="org.apache.cordova.whitelist.WhitelistPlugin"/>
+		<gap:plugin name="org.apache.cordova.whitelist"/>
 		<gap:plugin name="org.apache.cordova.inappbrowser"      version="0.3.3" />
 		<preference name="stay-in-webview" value="false" />
 		<preference name="phonegap-version" value="3.7.0" />
