@@ -116,7 +116,7 @@ width:100%;
 height:40%;
 }
 
-.cartelera .slider div img{width:100%;height:68%;}
+.cartelera .slider div img{width:100%;height:65%;}
 #title img{
 	display:inline-block;
 	height:50%;
@@ -145,7 +145,7 @@ footer{
 	position: absolute;
 	width: 100%;
 	height: 5%;
-	top: 37.3%;
+	top: 35%;
 	background: rgba(0, 0, 0, .95);
 
 }

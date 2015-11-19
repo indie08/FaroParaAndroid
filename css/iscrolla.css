@@ -73,12 +73,12 @@ ul,li {
 	#scroller div{
 	float:left;
 	display:block;
-	width:22.5%;
-	height:22.5%;
-	margin-top:0;
+	width:21%;
+	height:20%;
+	margin-top:2%;
 	background:none;
 	font-size: 100%;
-	margin-left:3%;
+	margin-left:0%;
 	background-position:top;
 
 }
@@ -86,11 +86,10 @@ ul,li {
 #wrapper {
 	position: absolute;
 	z-index: 1;
-	top:42.2%;
-	bottom: 5%;
+	top:40%;
+	bottom: 6%;
 	width: 100%;
 	height: auto;
-	overflow: hidden;
 	background:  rgba(0, 0, 0, 0.9)
 	
 }
