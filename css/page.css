@@ -157,6 +157,14 @@ footer{
 	height:100%;
 
 }
+footer div input{
+	margin-left:25px;
+	width:42%;
+	height:65%;
+	margin-top:13px;
+	outline:none;
+}
+
 
 }
 
