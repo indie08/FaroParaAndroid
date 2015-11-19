@@ -91,7 +91,7 @@ position:absolute;
 background:none;
 top:5%;
 width:100%;
-height:31.1%;
+height:40%;
 }
 
 .cartelera .slider div img{width:100%;height:65%;}
@@ -114,17 +114,24 @@ height:31.1%;
 footer{
 	width:100%;
 	height:5%;
-		background:  rgba(0, 0, 0, .95);
+	background:  rgba(0, 0, 0, .95);
 	position:fixed;
 	bottom:0;
 	z-index:3;		
 }
 .header-1 {
-	position:absolute;
-	width:100%;
-	height:5%;
-	top:25%;
-	background:  rgba(0, 0, 0, .95);
+	position: absolute;
+	width: 10%;
+	height: 5%;
+	top: 35%;
+	background: rgba(0, 0, 0, .95);
+
+}
+ #header-2{
+	text-align:center;
+	font-size:2em;
+	color:white;
+	height:100%;
 
 }
 
@@ -132,9 +139,9 @@ footer{
 .header-1 {
 	position:absolute;
 	width:100%;
-	height:5.1%;
-	top:35%;
-		background:  rgba(0, 0, 0, .95);
+	height:7.1%;
+	top:40%;
+	background:  rgba(0, 0, 0, .95);
 
 }
  #header-2{
@@ -151,6 +158,3 @@ footer{
 	height:100%;
 	overflow:auto;
 }
-
-
-
