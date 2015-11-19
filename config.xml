@@ -48,7 +48,6 @@ Mauricio Alejandro González, Diana Ocampo Mendez
 		<gap:platform name="winphone" />
 		<feature name="http://api.phonegap.com/1.0/network"/>
 		<gap:plugin name="cordova-plugin-splashscreen"  />
-		<gap:plugin name="cordova-plugin-statusbar"/>
 		<icon src="36x36_cuadro.png" gap:platform="android" gap:density="ldpi" />
 		<icon src="48x48_cuadro.png" gap:platform="android" gap:density="mdpi" />
 		<icon src="72x72_cuadro.png" gap:platform="android" gap:density="hdpi" />
