@@ -17,13 +17,13 @@ Mauricio Alejandro González, Diana Ocampo Mendez
 		<preference name="fullscreen" value="false" />
 		<preference name="target-device" value="universal" />
 		<preference name="webviewbounce" value="true" />
-		<preference name="prerendered-icon" value="true" />
-		<preference name="stay-in-webview" value="true" />
+		<preference name="prerendered-icon" value="false" />
+		<preference name="stay-in-webview" value="false" />
 		<preference name="ios-statusbarstyle" value="default" />
 		<preference name="detect-data-types" value="true" />
 		<preference name="exit-on-suspend" value="false" />
 		<preference name="show-splash-screen-spinner" value="true" />
-		<preference name="auto-hide-splash-screen" value="true" />
+		<preference name="auto-hide-splash-screen" value="false" />
 		<preference name="EnableViewportScale" value="true" />
 		<preference name="MediaPlaybackRequiresUserAction" value="false" />
 		<preference name="AllowInlineMediaPlayback" value="false" />
