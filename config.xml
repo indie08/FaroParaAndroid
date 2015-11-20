@@ -13,7 +13,7 @@ Mauricio Alejandro González, Diana Ocampo Mendez
 		<gap:plugin name="org.apache.cordova.whitelist"/>
 		<gap:plugin name="org.apache.cordova.inappbrowser"      version="0.3.3" />
 		<preference name="stay-in-webview" value="false" />
-		<preference name="phonegap-version" value="4.0.2" />
+		<preference name="phonegap-version" value="4.2.0" />
 		<preference name="orientation" value="portrait" />
 		<preference name="fullscreen" value="false" />
 		<preference name="target-device" value="universal" />
@@ -36,6 +36,7 @@ Mauricio Alejandro González, Diana Ocampo Mendez
 		<preference name="android-minSdkVersion" value="7" />
 		<preference name="android-maxSdkVersion" value="19" />
 		<preference name="android-installLocation" value="internalOnly" />
+		<preference name="SplashScreen" value="screen" />
 		<preference name="SplashScreenDelay" value="5000" />
 		<preference name="ErrorUrl" value=""/>
 		<preference name="BackgroundColor" value="0x000000"/>
@@ -55,11 +56,11 @@ Mauricio Alejandro González, Diana Ocampo Mendez
 		<icon src="96x96_cuadro.png" gap:platform="android" gap:density="xhdpi" />
 		<icon src="144x144_cuadro.png" gap:platform="android" gap:density="xxhdpi" />
 		<icon src="192x192_cuadro.png" gap:platform="android" gap:density="xxxhdpi" />
-		<gap:screen src="Splash20Screen-01.png" gap:platform="android" gap:density="ldpi" />
-		<gap:screen src="Splash20Screen-02.png" gap:platform="android" gap:density="mdpi" />
-		<gap:screen src="Splash20Screen-03.png" gap:platform="android" gap:density="hdpi" />
-		<gap:screnn src="Splash20Screen-04.png" gap:platform="android" gap:density="xhdpi" />
-		<gap:screen src="Splash20Screen-05.png" gap:platform="android" gap:density="xxhdpi" />
+		<gap:splash src="platforms\android\res\drawable-port-ldpi\screen.png" gap:platform="android" gap:density="ldpi" />
+		<gap:splash src="platforms\android\res\drawable-port-mdpi\screen.png" gap:platform="android" gap:density="mdpi" />
+		<gap:splash src="platforms\android\res\drawable-port-hdpi\screen.png" gap:platform="android" gap:density="hdpi" />
+		<gap:splash src="platforms\android\res\drawable-port-xhdpi\screen.png" gap:platform="android" gap:density="xhdpi" />
+		<gap:splash src="Splash20Screen-05.png" gap:platform="android" gap:density="xxhdpi" />
 		<access origin="http://www.farodeoriente.org/prueba/musica.html" subdomains="true"  />
 		<access origin="http://www.farodeoriente.org/prueba/cineclub.html" subdomains="true"  />
 		<access origin="http://www.farodeoriente.org/prueba/especiales.html" subdomains="true"  />
