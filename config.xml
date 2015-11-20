@@ -13,7 +13,7 @@ Mauricio Alejandro González, Diana Ocampo Mendez
 		<gap:plugin name="org.apache.cordova.whitelist"/>
 		<gap:plugin name="org.apache.cordova.inappbrowser"      version="0.3.3" />
 		<preference name="stay-in-webview" value="false" />
-		<preference name="phonegap-version" value="3.9.0" />
+		<preference name="phonegap-version" value="3.8.0" />
 		<preference name="orientation" value="portrait" />
 		<preference name="fullscreen" value="false" />
 		<preference name="target-device" value="universal" />
