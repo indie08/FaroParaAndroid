@@ -55,11 +55,11 @@ Mauricio Alejandro González, Diana Ocampo Mendez
 		<icon src="96x96_cuadro.png" gap:platform="android" gap:density="xhdpi" />
 		<icon src="144x144_cuadro.png" gap:platform="android" gap:density="xxhdpi" />
 		<icon src="192x192_cuadro.png" gap:platform="android" gap:density="xxxhdpi" />
-		<gap:splash src="Splash20Screen-01.png" gap:platform="android" gap:density="ldpi" />
-		<gap:splash src="Splash20Screen-02.png" gap:platform="android" gap:density="mdpi" />
-		<gap:splash src="Splash20Screen-03.png" gap:platform="android" gap:density="hdpi" />
-		<gap:splash src="Splash20Screen-04.png" gap:platform="android" gap:density="xhdpi" />
-		<gap:splash src="Splash20Screen-05.png" gap:platform="android" gap:density="xxhdpi" />
+		<gap:screen src="Splash20Screen-01.png" gap:platform="android" gap:density="ldpi" />
+		<gap:screen src="Splash20Screen-02.png" gap:platform="android" gap:density="mdpi" />
+		<gap:screen src="Splash20Screen-03.png" gap:platform="android" gap:density="hdpi" />
+		<gap:screnn src="Splash20Screen-04.png" gap:platform="android" gap:density="xhdpi" />
+		<gap:screen src="Splash20Screen-05.png" gap:platform="android" gap:density="xxhdpi" />
 		<access origin="http://www.farodeoriente.org/prueba/musica.html" subdomains="true"  />
 		<access origin="http://www.farodeoriente.org/prueba/cineclub.html" subdomains="true"  />
 		<access origin="http://www.farodeoriente.org/prueba/especiales.html" subdomains="true"  />
@@ -77,7 +77,7 @@ Mauricio Alejandro González, Diana Ocampo Mendez
 		<access origin="https://www.instagram.com/farodeoriente" />
 		<access origin="https://www.youtube.com/user/Farodeorienteoficial"/>
 		<access origin="https://twitter.com/farodeoriente"/>
-		<access origin="https://www.flickr.com/photos/29978342@N03"/>
+		<access origin="https://flic.kr/s/aHsiTzgDMW"/>
 		<access origin="http://www.farodeoriente.org/prueba/contenido.html" subdomains="true"  />
 		<access origin="http://www.farodeoriente.org/prueba/uno.jpg" subdomains="true"  />
 		<access origin="http://www.farodeoriente.org/prueba/dos.jpg" subdomains="true"  />
